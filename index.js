@@ -1,13 +1,17 @@
-function receivesAFunction(){
+function rootFunction(){
 
 }
-function receivesAFunction(){
+function functionA(){
+
+}
+function functionB(){
 
 }
 
 function receivesAFunction(spy){
-spy()
+spy();
 }
+
 function returnsANamedFunction() {
     return function namedFunction() {
 
@@ -16,6 +20,6 @@ function returnsANamedFunction() {
 
   function returnsAnAnonymousFunction() {
     return function() {
-     
+
     };
   }
